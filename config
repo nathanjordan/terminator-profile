@@ -7,7 +7,7 @@
 [keybindings]
 [profiles]
   [[default]]
-    palette = "#000000:#cc0000:#4e9a06:#a47709:#295089:#75507b:#2d7144:#d3d7cf:#555753:#ea253c:#91e244:#efb525:#81abe8:#be79b6:#54c481:#ffffff"
+    palette = "#000000:#cc0000:#4e9a06:#cc6900:#295089:#75507b:#2d7144:#d3d7cf:#555753:#ea253c:#91e244:#efb525:#81abe8:#be79b6:#54c481:#ffffff"
     visible_bell = True
     background_darkness = 0.9
     background_type = transparent
