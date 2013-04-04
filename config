@@ -1,0 +1,62 @@
+[global_config]
+  title_receive_bg_color = "#1b557d"
+  enabled_plugins = ,
+  title_transmit_bg_color = "#c50032"
+  title_inactive_fg_color = "#929292"
+  title_inactive_bg_color = "#313131"
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#000000:#cc0000:#4e9a06:#a47709:#295089:#75507b:#2d7144:#d3d7cf:#555753:#ea253c:#91e244:#efb525:#81abe8:#be79b6:#54c481:#ffffff"
+    visible_bell = True
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#d0d0d0"
+    foreground_color = "#ffffff"
+    font = Ubuntu Mono 12
+    scrollback_infinite = True
+  [[nate]]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      position = 65:24
+      type = Window
+      order = 0
+      parent = ""
+      size = 1301, 744
+    [[[child1]]]
+      position = 650
+      type = HPaned
+      order = 0
+      parent = child0
+    [[[child2]]]
+      position = 372
+      type = VPaned
+      order = 0
+      parent = child1
+    [[[child5]]]
+      position = 372
+      type = VPaned
+      order = 1
+      parent = child1
+    [[[terminal3]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child2
+    [[[terminal4]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child2
+    [[[terminal7]]]
+      profile = default
+      type = Terminal
+      order = 1
+      parent = child5
+    [[[terminal6]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child5
+[plugins]
